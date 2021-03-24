@@ -63,6 +63,9 @@ header nav {
   padding-right: 20px;
 }
 
+ul {
+  overflow: scroll;
+}
 /*Header navigation unordered list */
 header nav ul {
   display: flex;
@@ -77,6 +80,7 @@ header nav ul li a {
   color: black;
   margin: 0 20px 0 0;
   text-align: center;
+  display: flex;
 }
 /* Form styling */
 form label {
